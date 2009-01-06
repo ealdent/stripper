@@ -1,5 +1,5 @@
-author: simon@redhillconsulting.com.au
-summary: Stripper is a plugin that removes leading and trailing blanks from attribute values.
-homepage: http://www.redhillonrails.org
+author: simon.harris@redhillconsulting.com.au
+summary: Remove leading and trailing blanks from attribute values in your Ruby on Rails models.
+homepage: http://github.com/harukizaemon/stripper
 license: MIT
-rails_version: EDGE
+rails_version: 2.2.2

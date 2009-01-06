@@ -1,0 +1,41 @@
+= Stripper
+
+Stripper is a Ruby on Rails plugin that removes leading and trailing blanks from attribute values in your models.
+
+Leading and trailing spaces on attribute values can be a problem. They're almost never wanted nor intended. In fact,
+Oracle actually treats empty strings as NULL. That's not to say we necessarily think that the database should be messing
+with our data mind you but it does show that at least someone agrees with us.
+
+Here's an example of what happens when the plugin is installed:
+
+  $ ./script/console 
+  Loading development environment (Rails 2.2.2)
+  Welcome to interactive ruby!
+  irb --> u = User.new
+      ==> #<User id: nil, name: nil, time: created_at: nil, updated_at: nil, lock_version: 0>
+
+  irb --> u.name = "    Simon Harris   "
+      ==> "    Simon Harris   "
+
+  irb --> u.name
+      ==> "Simon Harris"
+
+  irb --> u.name = "                   "
+      ==> "                   "
+
+  irb --> u.name
+      ==> nil
+
+== Installation
+
+You have two choices for installation. The first uses a gem (recommended):
+
+  $ sudo gem install harukizaemon-stripper
+
+Or you can use the Rails plugin
+
+  $ ruby script/install git://github.com/harukizaemon/stripper.git
+
+=== License
+
+This plugin is copyright 2006 by RedHill Consulting, Pty. Ltd. and is released under the MIT license.

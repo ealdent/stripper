@@ -1,0 +1,21 @@
+== 2.0.0 released 2009-01-05
+
+* Rails 2.2.2 compatible.
+
+== 2008-08-28
+
+* Don't set to NULL if the stripped value is the same as the column's default.
+
+* Binary columns being stripped.
+
+== 2008-01-03
+
+* False incorrectly interpreted as empty.
+
+== 2007-11-28
+
+* Workaround to ensure plugin is only ever loaded once.
+
+== 2007-11-06
+
+* Initial revision.
