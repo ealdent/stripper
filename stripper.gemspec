@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name     = "cascading_stripp"
+  s.name     = "stripper"
   s.version  = "2.0.0"
   s.date     = "2009-01-05"
   s.summary  = "Remove leading and trailing blanks from attribute values in your Ruby on Rails models."
