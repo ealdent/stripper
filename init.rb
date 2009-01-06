@@ -1,1 +1,1 @@
-rails/init.rb
+require 'stripper' unless defined?(RedHillConsulting::Stripper)

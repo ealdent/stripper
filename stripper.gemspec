@@ -12,10 +12,9 @@ Gem::Specification.new do |s|
                 "MIT-LICENSE",
                 "README.rdoc",
                 "stripper.gemspec",
-                "lib",
                 "lib/stripper.rb",
-                "lib/red_hill_consulting/stripper/active_record/base.rb",
-                "rails/init.rb"]
+                "lib/red_hill_consulting/stripper/active_record/base.rb"]
+  s.autorequire = 'stripper'
   s.rdoc_options = ["--main", "README.rdoc"]
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "README.rdoc"]
 end
