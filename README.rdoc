@@ -25,7 +25,7 @@ Here's an example of what happens when the plugin is installed:
 
 You have two choices for installation. The first uses a gem (recommended):
 
-  $ sudo gem install harukizaemon-stripper
+  config.gem "harukizaemon-stripper", :lib => "stripper", :source => "http://gems.github.com"
 
 Or you can use the Rails plugin
 
