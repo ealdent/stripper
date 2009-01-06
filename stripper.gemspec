@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name     = "cascading_stripp"
   s.version  = "2.0.0"
   s.date     = "2009-01-05"
-  s.summary  = "Removes leading and trailing blanks from attribute values in your Ruby on Rails models."
+  s.summary  = "Remove leading and trailing blanks from attribute values in your Ruby on Rails models."
   s.email    = "simon.harris@redhillconsulting.com.au"
   s.homepage = "http://github.com/harukizaemon/stripper"
   s.description = "Stripper is a Ruby on Rails plugin that removes leading and trailing blanks from attribute values in your models."
