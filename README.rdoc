@@ -12,17 +12,12 @@ Here's an example of what happens when the plugin is installed:
   Loading development environment (Rails 2.2.2)
   Welcome to interactive ruby!
   irb --> u = User.new
-      ==> #<User id: nil, name: nil, time: created_at: nil, updated_at: nil, lock_version: 0>
 
   irb --> u.name = "    Simon Harris   "
-      ==> "    Simon Harris   "
-
   irb --> u.name
       ==> "Simon Harris"
 
   irb --> u.name = "                   "
-      ==> "                   "
-
   irb --> u.name
       ==> nil
 
@@ -34,7 +29,7 @@ You have two choices for installation. The first uses a gem (recommended):
 
 Or you can use the Rails plugin
 
-  $ ruby script/install git://github.com/harukizaemon/stripper.git
+  $ ruby script/plugin install git://github.com/harukizaemon/stripper.git
 
 === License
 
