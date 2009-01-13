@@ -1,1 +1,1 @@
-require 'stripper' unless defined?(RedHillConsulting::Stripper)
+require 'stripper' unless defined?(HarukiZaemon::Stripper)

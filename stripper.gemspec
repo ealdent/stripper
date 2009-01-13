@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name     = "stripper"
-  s.version  = "2.0.0"
-  s.date     = "2009-01-05"
+  s.version  = "2.0.1"
+  s.date     = "2009-01-14"
   s.summary  = "Remove leading and trailing blanks from attribute values in your Ruby on Rails models."
-  s.email    = "simon.harris@redhillconsulting.com.au"
+  s.email    = "haruki.zaemon@gmail.com"
   s.homepage = "http://github.com/harukizaemon/stripper"
   s.description = "Stripper is a Ruby on Rails plugin that removes leading and trailing blanks from attribute values in your models."
   s.has_rdoc = true
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
                 "README.rdoc",
                 "stripper.gemspec",
                 "lib/stripper.rb",
-                "lib/red_hill_consulting/stripper/active_record/base.rb"]
+                "lib/haruki_zaemon/stripper/active_record/base.rb"]
   s.rdoc_options = ["--main", "README.rdoc"]
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "README.rdoc"]
 end

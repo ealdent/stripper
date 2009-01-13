@@ -1,4 +1,4 @@
-author: simon.harris@redhillconsulting.com.au
+author: haruki.zaemon@gmail.com
 summary: Remove leading and trailing blanks from attribute values in your Ruby on Rails models.
 homepage: http://github.com/harukizaemon/stripper
 license: MIT

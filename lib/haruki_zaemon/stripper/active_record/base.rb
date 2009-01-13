@@ -1,4 +1,4 @@
-module RedHillConsulting::Stripper::ActiveRecord
+module HarukiZaemon::Stripper::ActiveRecord
   module Base
     def self.included(base)
       base.alias_method_chain :write_attribute, :stripper

@@ -1,1 +1,1 @@
-ActiveRecord::Base.send(:include, RedHillConsulting::Stripper::ActiveRecord::Base)
+ActiveRecord::Base.send(:include, HarukiZaemon::Stripper::ActiveRecord::Base)
