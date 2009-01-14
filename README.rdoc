@@ -33,4 +33,4 @@ Or you can use the Rails plugin
 
 === License
 
-This plugin is copyright 2006 by RedHill Consulting, Pty. Ltd. and is released under the MIT license.
+This plugin is copyright 2009 Simon Harris and is released under the MIT license.
