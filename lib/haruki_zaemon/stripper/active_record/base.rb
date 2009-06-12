@@ -6,7 +6,7 @@ module HarukiZaemon::Stripper::ActiveRecord
 
     def write_attribute_with_stripper(attr_name, value)
       column = column_for_attribute(attr_name)
-      unless column.type == :binary
+      unless column && column.type == :binary
         value = value.strip if value.respond_to?(:strip)
         value = nil if value.respond_to?(:empty?) && value.empty? && value != column.default
       end
