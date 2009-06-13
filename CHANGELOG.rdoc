@@ -1,3 +1,7 @@
+== 2.0.3 released 2009-06-13
+
+* Add check to see if it's even an ActiveRecord column, and not something that has been duck-typed in (which throws a warning that Object#type has been deprecated). (ealdent)
+
 == 2.0.2 released 2009-01-14
 
 * Change package structure.
